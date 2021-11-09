@@ -11,7 +11,7 @@ and containers are used.
 ### Technical description
 
 The classes MyTime, Song and Album form the building blocks of this program that are necessary for determining
-the format in which the data kept by the program is saved. I began building the program by coding these classes. 
+the format in which the data kept by the program is saved. 
 MyTime manages the formatting of the length of songs and
 albums in hours, minutes and seconds. Song uses MyTime to handle length information about songs while also keeping 
 information about the song's titles and artists. The class Album instead binds several Song objects together into
@@ -43,10 +43,9 @@ The overloading made the code more compact and elegant.
 At the same time the overloaded operators were one of the most challenging parts of this project for me. 
 The function openFromFile() in Jukebox, that makes use of the overloaded operator>> posed a challenge
 with all the layers of overloading done in the different classes. All the details in the different classes had to match
-to make the whole work in openFromFile(). Further, I assume that my solution of "resetting" the Album object tmpAlbum
-with setAlbum() and an empty vector is probably not the most elegant way to handle the situation. 
+to make the whole work in openFromFile(). 
 
-I think I also learned more about how STL containers and algorithms work and how they can be used. For example, 
+By creating this project I have learned more about how STL containers and algorithms work and how they can be used. For example, 
 I found out that find() works using the operator==, and figured out that that operator had to be
 defined for the specific class, the objects of which were to be compared by find(). 
 
