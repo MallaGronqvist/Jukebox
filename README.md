@@ -1,6 +1,6 @@
 # Jukebox
 
-This is a console application that simulates a jukebox where the user can view, sort, add or delete music albums.
+This is a console application written in C++ that simulates a jukebox where the user can view, sort, add or delete music albums.
 
 ## Purpose
 
