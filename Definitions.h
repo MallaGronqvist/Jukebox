@@ -1,0 +1,7 @@
+#ifndef DT018G_PROTOTYPES_H
+#define DT018G_PROTOTYPES_H
+
+
+
+
+#endif  // DT018G_PROTOTYPES_H
