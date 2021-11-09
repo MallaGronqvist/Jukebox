@@ -1,9 +1,8 @@
 // Project
-// Malla Grönqvist
+// Malla GrÃ¶nqvist
 // Main program file
 
 
-#include "menu.h"
 #include "jukebox.h"
 
 int main() {
