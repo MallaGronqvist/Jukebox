@@ -1,5 +1,7 @@
 # Jukebox
 
+This is a console application that simulates a jukebox where the user can view, sort, add or delete music albums.
+
 ## Purpose
 
 The purpose of this project has been to create a Jukebox program that handles a set of albums using classes, algorithms 
@@ -50,4 +52,14 @@ defined for the specific class, the objects of which were to be compared by find
 
 ### Instructions for compiling and running the program
 
+The project consists of following files that should be compiled together:
 
+<li>main.cpp
+ <li>jukebox.h & jukebox.cpp
+  <li>menu.h & menu.cpp
+   <li>album.h & album.cpp
+    <li>mytime.h & mytime.cpp
+     <li>song.h & song.cpp
+      
+Moreover, the program makes use of the text file 'jukebox' to save the list of albums to file. This file should
+be in the same folder with the source files when the program is compiled.       
