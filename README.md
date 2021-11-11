@@ -30,7 +30,7 @@ MyTime and Album also contain overloaded operators (<, == and +) that enable ari
  
  Finally the main program contains only a Jukebox object, that is run by the class Jukebox' member function run().
  
-### Special Gotchas
+### Reflections and take-away
  
 As the class Jukebox works as a user interface, it also hides the other classes from the user and makes the data
 more secured. The encapsulation of data in the program's classes protects the data from getting modified by any external
